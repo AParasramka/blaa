@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kaustubh.insomniatec.Options">
+
+
+    <LinearLayout
+        android:id="@+id/screen0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:orientation="vertical"
+        android:text="">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="70dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center"
+            android:lineSpacingMultiplier="1.5"
+            android:text="Insomniatec"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:fontFamily="sans-serif"
+            app:layout_anchor="@+id/button"
+            app:layout_anchorGravity="top|center_horizontal" />
+
+        <TextView
+            android:id="@+id/txtBt0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Blink Responsibly ;)"
+            android:textColor="#FFD700"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            app:layout_anchor="@+id/button"
+            app:layout_anchorGravity="top|center_horizontal" />
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/screen1"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="gone"-->
+        <!--android:text="" >-->
+
+        <!--<TextView-->
+
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:lineSpacingMultiplier="1.5"-->
+            <!--android:text="Google is here man!"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:textSize="20sp"-->
+            <!--app:layout_anchor="@+id/button"-->
+            <!--app:layout_anchorGravity="top|center_horizontal" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_margin="70dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="160dp"-->
+            <!--app:srcCompat="@drawable/gmap" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txtBt1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="So what?"-->
+            <!--android:textColor="#FFD700"-->
+            <!--android:textSize="20sp"-->
+            <!--app:layout_anchor="@+id/button"-->
+            <!--app:layout_anchorGravity="top|center_horizontal" />-->
+
+    <!--</LinearLayout>-->
+
+
+</android.support.design.widget.CoordinatorLayout>
